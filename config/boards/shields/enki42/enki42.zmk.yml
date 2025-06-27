@@ -1,13 +1,13 @@
 file_format: "1"
-id: enki42
-name: The enki42 
+id: 6799FF
+name: TO
 type: shield
-url: https://github.com/benvallack/zmk-config-enki42
+url: https://github.com/6799FF/amk-enki42-dongle
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
 siblings:
-  - enki42_left
-  - enki42_right
-  - enki42_dongle
+  - to_left
+  - to_right
+  - to_dongle
