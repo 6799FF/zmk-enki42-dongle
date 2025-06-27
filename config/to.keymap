@@ -55,11 +55,6 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // ------------------------------------------------------------------------------------------------
-            //| LGUI/] |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | RGUI/[ | 
-            //| CTRL/` |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  | CTRL/' |
-            //| LALT/\ |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RALT/- |
-            //                             | RSE | SPC | LWR |   | LWR | BKSP | RSE |
 
             bindings = <
 &kp ESCAPE  &kp W          &kp E      &kp R           &kp T      &kp Y      &kp U            &kp I     &kp O     &kp BACKSPACE
